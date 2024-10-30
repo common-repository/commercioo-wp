@@ -1,0 +1,4 @@
+.table.c-table-statistics thead th {
+    vertical-align: bottom;
+    border-bottom: 0;
+}

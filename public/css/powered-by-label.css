@@ -1,0 +1,83 @@
+body #commercioo-thankyou-standalone .commercioo-checkout-container,
+body #commercioo-checkout-standalone .commercioo-checkout-container {
+	padding-bottom: 35px;
+}
+
+body #commercioo-thankyou-standalone .commercioo-checkout-powered,
+body #commercioo-checkout-standalone .commercioo-checkout-powered {
+    max-width: 1400px;
+    position: fixed;
+    bottom: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+body #commercioo-thankyou-standalone .img-powered img,
+body #commercioo-checkout-standalone .img-powered img {
+    height: 32px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    box-sizing: content-box;
+}
+
+body #commercioo-thankyou-standalone .text-powered-by,
+body #commercioo-checkout-standalone .text-powered-by {
+    font-size: 10px;
+    color: #bdbdbd;
+    text-decoration: none solid rgb(189, 189, 189);
+    letter-spacing: 1px;
+    line-height: 1;
+    padding-top: 2px;
+}
+
+body #commercioo-thankyou-standalone .text-commercioo,
+body #commercioo-checkout-standalone .text-commercioo {
+    font-size: 14px;
+    color: #e0e0e0;
+    text-decoration: none solid rgb(224, 224, 224);
+    letter-spacing: 0.5px;
+}
+
+body #commercioo-thankyou-standalone .text-powered-wrap,
+body #commercioo-checkout-standalone .text-powered-wrap {
+    padding-top: 4px;
+}
+
+body #commercioo-thankyou-standalone .powered-container,
+body #commercioo-checkout-standalone .powered-container {
+    border-top-left-radius: 5px;
+    background-color: #37474f;
+    display: flex;
+    padding-right: 7px;
+    padding-left: 5px;
+}
+
+body #commercioo-thankyou-standalone .powered-by-icon,
+body #commercioo-checkout-standalone .powered-by-icon {
+    background: #f15a29;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 5px;
+}
+
+body #commercioo-thankyou-standalone .powered-by-icon i.fa,
+body #commercioo-checkout-standalone .powered-by-icon i.fa {
+    color: #e0e0e0;
+    font-size: 23px;
+}
+
+body #commercioo-thankyou-standalone .footer-powered,
+body #commercioo-checkout-standalone .footer-powered {
+    display: flex;
+    height: 40px;
+    float: right;
+}
+
+body #commercioo-thankyou-standalone .commercioo-checkout-powered a:hover .powered-by-icon,
+body #commercioo-checkout-standalone .commercioo-checkout-powered a:hover .powered-by-icon {
+    background: #df4e1f;    
+}

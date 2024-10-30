@@ -1,0 +1,181 @@
+/* Columns */
+.commercioo-required-plugin .commercioo-required-plugin-main {
+    width: 70%;
+    float: left;
+    background: #fff;
+    padding: 25px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px; }
+.commercioo-required-plugin .commercioo-required-plugin-main.stylefree {
+    padding: 0;
+    background-color: transparent;
+    border: none; }
+
+.commercioo-required-plugin .commercioo-required-plugin-main .group {
+    background: #fff;
+    padding: 20px;
+    margin: 0 0 20px;
+    position: relative;
+    display: block;
+    clear: both; }
+
+.commercioo-required-plugin .commercioo-required-plugin-main .group,
+.commercioo-required-plugin .cnkt-sidebar .cta,
+.call-out.light {
+    border: 1px solid #e1e1e1;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
+.commercioo-required-plugin .commercioo-required-plugin-main .group.no-shadow,
+.commercioo-required-plugin .cnkt-sidebar .cta.no-shadow,
+.call-out.light.no-shadow {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.commercioo-required-plugin .commercioo-required-plugin-main .repeater-listing {
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 25px;
+    position: relative; }
+.commercioo-required-plugin .commercioo-required-plugin-main .repeater-listing .toggle-all {
+    right: -1px;
+    top: -45px; }
+.commercioo-required-plugin .commercioo-required-plugin-main .repeater-listing .flexbox-wrap {
+    margin: 0; }
+
+.commercioo-required-plugin .commercioo-required-plugin-main.full {
+    width: auto;
+    float: none; }
+
+.commercioo-required-plugin .commercioo-required-plugin-main h2,
+.commercioo-required-plugin .commercioo-required-plugin-main h3,
+.commercioo-required-plugin .commercioo-required-plugin-main h4 {
+    margin-top: 0; }
+
+.commercioo-required-plugin-installer{
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-between;
+    width: 102%;
+    position: relative;
+    left: -1%;
+}
+.commercioo-required-plugin-installer:after {
+    content: "";
+    flex: auto;
+}
+.commercioo-required-plugin-installer * {
+    box-sizing: border-box;
+}
+.commercioo-required-plugin-installer .plugin{
+    width: 31.333%;
+    margin: 0 1% 30px;
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    position: relative;
+    border-radius: 2px;
+}
+.commercioo-required-plugin-installer .plugin:hover{
+    border-color: #cecece;
+}
+
+.commercioo-required-plugin-installer .plugin-wrap{
+    padding: 20px 20px 95px 145px;
+    min-height: 214px;
+    display: block;
+    position: relative;
+}
+.commercioo-required-plugin-installer li a,
+.commercioo-required-plugin-installer .plugin-wrap a{
+    text-decoration: none;
+}
+.commercioo-required-plugin-installer .plugin-wrap img{
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    max-width: 108px;
+    max-height: 108px;
+    border: 1px solid #f7f7f7;
+}
+.commercioo-required-plugin-installer .plugin-wrap h2,
+.commercioo-required-plugin-installer .plugin-wrap p{
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.4;
+}
+.commercioo-required-plugin-installer .plugin-wrap p{
+    padding: 10px 0 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+.commercioo-required-plugin-installer .plugin-wrap p.plugin-author{
+    font-size: 13px;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.commercioo-required-plugin-installer .activation-row{
+    display: block;
+    margin: 0;
+    padding: 20px;
+    background: #f7f7f7;
+    border-top: 1px solid #e1e1e1;
+    border-radius: 0 0 2px 2px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0 0 2px 2px;
+    text-align: left;
+}
+.commercioo-required-plugin-installer .activation-row li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 0 0;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+@media screen and (max-width: 1170px){
+    .commercioo-required-plugin-installer .plugin{
+        width: 48%;
+        margin: 0 1% 15px;
+    }
+}
+@media screen and (max-width: 960px){
+    .commercioo-required-plugin-installer .plugin-wrap{
+        padding: 20px 20px 95px 115px;
+        min-height: 214px;
+    }
+    .commercioo-required-plugin-installer .plugin-wrap img{
+        max-width: 78px;
+        max-height: 78px;
+    }
+}
+@media screen and (max-width: 640px){
+    .commercioo-required-plugin-installer{
+        width: 100%;
+        position: static;
+    }
+    .commercioo-required-plugin-installer .plugin{
+        width: 100%;
+        margin: 0 0 20px;
+    }
+}

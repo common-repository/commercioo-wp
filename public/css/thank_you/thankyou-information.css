@@ -1,0 +1,84 @@
+.commercioo-thankyou-list-bank-account,
+.commercioo-thankyou-list-customer-address {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.commercioo-thankyou-list-bank-account 
+.bank-item {
+    border: 1px solid #dfe5e9;
+    border-bottom: none;
+    padding: 20px;
+}
+.commercioo-thankyou-list-bank-account 
+.bank-item p {
+    margin-bottom: 5px;
+}
+.commercioo-thankyou-list-bank-account 
+.bank-item:nth-child(2n) {
+    border-left: none;
+}
+.commercioo-thankyou-list-bank-account 
+.bank-item:nth-last-child(-n+2) {
+    border-bottom: 1px solid #dfe5e9;
+}
+.account-number-copy {
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.commercioo-thankyou-price-wrapper {
+    margin: 20px 0;
+}
+.c-btn-payment-confirmation {
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #f15a29;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+.c-btn-payment-confirmation:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.commercioo-thankyou-countdown {
+    margin-top: 25px;
+}
+.timer-countdown {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 0 10px;
+}
+/* -------------------------------------
+            3 digits of total price
+ ------------------------------------- */
+[data-3digit]:after {
+    content: attr(data-3digit);
+    width: 100%;
+    background-color: #fff176;
+}
+.c-commercioo-color {
+    color: #f15a29;
+}
+.c-text-hero {
+    font-size: 32px;
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+    .commercioo-thankyou-list-bank-account,
+    .commercioo-thankyou-list-customer-address {
+        grid-template-columns: 100%;
+    }
+    .commercioo-thankyou-list-bank-account 
+    .bank-item:nth-last-child(n+2) {
+        border-left: 1px solid #dfe5e9;
+    }
+    .commercioo-thankyou-list-bank-account 
+    .bank-item:last-child {
+        border-top: none;
+        border-left: 1px solid #dfe5e9;
+    }
+}

@@ -1,0 +1,266 @@
+.c-title-header {
+    font-size: 14px;
+    color: #424242;
+    text-decoration: none solid rgb(66, 66, 66);
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.c-title-statistics {
+    font-size: 14px;
+    color: #424242;
+    text-decoration: none solid rgb(66, 66, 66);
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.c-table-statistics {
+    font-size: 14px;
+    color: #424242;
+    border: solid 1px #dee2e6;
+    border-top: 0;
+}
+
+.c-table-top-products-head {
+    background-color: #f2f2f2;
+    background-size: cover;
+    font-size: 14px;
+    color: #424242;
+    text-decoration: none solid rgb(66, 66, 66);
+    letter-spacing: 0.5px;
+}
+
+.table.c-table-statistics thead.c-table-top-products-head th {
+    vertical-align: bottom;
+    border-bottom: 0;
+}
+
+.table.c-table-statistics th {
+    padding: 0.75rem;
+    vertical-align: top;
+}
+
+.c-table-top-products thead.c-table-top-products-head,
+tbody.c-table-top-products-body tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.c-table-top-products tbody.c-table-top-products-body {
+    display: block;
+    max-height: 322px;
+    overflow-y: overlay;
+}
+
+.c-insight-desc {
+    height: 374px;
+    padding: 15px 20px;
+    border-style: solid;
+    border-color: #eaeaea;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    background: #424242;
+}
+
+.c-insight-desc-text {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.c-image-insight {
+    width: 23px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.c-card-group-long {
+    height: 230px;
+    background: #d5ffe0;
+    fill: #fafafa;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    stroke-width: 1;
+}
+
+.list-group-item.list-group-item-action.flex-column.align-items-start.c-card-group-long:hover {
+    background: #85bd94;
+}
+
+.c-statistics-price {
+    font-size: 16px;
+    color: #424242;
+    text-align: center;
+    font-weight: bold;
+}
+
+.c-statistics-rp-long {
+    font-size: 20px;
+    color: #539264;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.c-price-long {
+    padding-top: 65px;
+}
+
+.c-card-group {
+    height: 92px;
+    fill: #fafafa;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    stroke-width: 1;
+}
+
+.c-statistics-rp {
+    font-size: 20px;
+    color: #dadada;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.c-statistics-refund {
+    font-size: 16px;
+    color: #424242;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 23px;
+}
+
+.c-statistics-status {
+    border-left: 10px solid #c8e6c9;
+    background-color: #e8f5e9;
+    border-color: #c8e6c9;
+    padding: 6px 15px 0px 14px;
+    color: #757575;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.c-date-range-statistics {
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    background-color: #ffffff;
+    background-size: cover;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    color: #424242;
+    text-decoration: none solid rgb(66, 66, 66);
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    line-height: 35px;
+    display: inline-block;
+    width: 400px;
+}
+
+.c-group-right-second-top {
+    padding: 0px;
+}
+
+@media screen and (max-width: 955px) and (min-width: 801px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    .c-insight-desc {
+        height: 100%;
+    }
+
+    .c-header-table {
+        background-color: #f2f2f2;
+        color: #424242;
+        text-decoration: none solid rgb(66, 66, 66);
+        letter-spacing: 0.5px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .set-width-100 {
+        width: 100%;
+    }
+
+    .c-date-range-statistics {
+        min-width: 370px;
+        margin-top: -26px;
+    }
+
+    table#topProducts, table#csLeaderboard, table#daysMoysConverting, table#followupToSales, table#ordersToSales {
+        margin-top: 0 !important;
+    }
+
+    .followup-closing, .orders-closing {
+        font-size: 0;
+    }
+}
+
+@media screen and (max-width: 767px) { 
+
+    .c-product-detail-head {
+        display: table-cell !important;
+    }
+
+    .c-product-detail-label, .c-product-detail-item {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .c-product-detail-body {
+        display: contents !important;
+    }
+
+    .followup-closing, .orders-closing {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 516px) {
+
+    .c-date-range-statistics {
+        min-width: 100%;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .c-date-wrap {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+.comm-no-padding-left{
+    padding-left: 0px;
+}
+.comm-revenue {
+    background: #d5ffe0;
+    fill: #fafafa;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    stroke-width: 1;
+}
+.c-statistics-description {
+    position: absolute;
+    font-size: 13px;
+    left: 50%;
+    top: -15px;
+    transform: translateX(-50%);
+}
+
+.drp-calendar.left th:first-child {
+    display: none;
+}
+
+a.c-btn-statistics.c-add-statistics {
+    background-color: #2196f3;
+    color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+    padding: 3px 10px 3px;
+    font-weight: normal;
+    margin-left: 10px;
+    border: none;
+    font-size: 13px; }

@@ -1,0 +1,361 @@
+.commercioo-license-page {
+    border: 1px solid #ddd;
+}
+.commercioo-license-page * {
+    box-sizing: border-box;
+}
+.commercioo-license-page-header {
+    background: #fff;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    text-align: center;
+}
+.commercioo-license-page-header .logo {
+    display: block;
+    height: 28px;
+    position: absolute;
+    top: 16px;
+    left: 21px;
+}
+.commercioo-license-page-header .steps {
+    display: inline-block;
+    margin: 16px auto;
+}
+.commercioo-license-page-header .steps li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+.commercioo-license-page-header .steps li .number,
+.commercioo-license-page-header .steps li .check {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    background: #d9d9d9;
+    color: #616161;
+    border-radius: 50%;
+    margin-right: 8px;
+    font-weight: 700;
+}
+.commercioo-license-page-header .steps li .check {
+    display: none;
+}
+.commercioo-license-page-header .steps li .check:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    display: inline-block;
+    line-height: 22px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    left: 0;
+}
+.commercioo-license-page-header .steps li.done .check {
+    display: inline-block;
+}
+.commercioo-license-page-header .steps li.done .number {
+    display: none;
+}
+.commercioo-license-page-header .steps li .text {
+    font-size: 16px;
+    display: inline-block;
+    line-height: 22px;
+}
+.commercioo-license-page-header .steps li:after {
+    font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 22px;
+}
+.commercioo-license-page-header .steps li:last-child:after {
+    display: none;
+}
+.commercioo-license-page-header .steps li.active .number,
+.commercioo-license-page-header .steps li.active .check,
+.commercioo-license-page-header .steps li.done .number,
+.commercioo-license-page-header .steps li.done .check {
+    background: #43a9e8;
+    color: #fff;
+}
+.commercioo-license-page-header .steps li.active .text,
+.commercioo-license-page-header .steps li.done .text {
+    color: #43a9e8;
+}
+
+.commercioo-license-page-content .license-page-content {
+    padding: 50px 0;
+    background: #fcfcfc;
+}
+.commercioo-license-page-content .license-page-content.show {
+    display: block;
+}
+.commercioo-license-page-content .license-page-content .license-page-content-container {
+    padding: 0 25px 0 25px;
+    margin: 0 auto;
+}
+.commercioo-license-page-content .license-page-content .license-page-content-container > h2 {
+    margin: 0 0 20px;
+    font-size: 30px;
+    color: #424242;
+}
+.commercioo-license-page-content .license-page-content .license-page-content-container > p {
+    color: #616161;
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+.commercioo-license-page-content .license-page-content .error-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(250, 177, 160,.5);
+    color: #d63031;
+    padding: 5px 10px;
+    display: none;
+}
+.commercioo-license-page-content .license-page-content .error-container.show {
+    display: block;
+}
+.commercioo-license-page-content .license-page-content .error-container p {
+    margin: 0;
+}
+
+.commercioo-license-page-content .license-page-content .license-page-inner > div {
+    border-bottom: 1px solid #e3e3e3;
+}
+.commercioo-license-page-content .license-page-content .license-page-inner > div:last-child {
+    border-bottom: 0;
+}
+.commercioo-license-page-content .license-page-content .license-page-inner .block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,.7);
+    z-index: 999;
+    cursor: wait;
+    border: none;
+}
+.commercioo-license-page-content .license-page-content .license-page-inner .block.show {
+    display: block;
+}
+.commercioo-license-page-content .license-page-content .license-page-inner-header {
+    padding: 20px 30px;
+    display: flex;
+}
+.commercioo-license-page-content .license-page-content .license-page-inner-header img {
+    display: block;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #eee;
+}
+.commercioo-license-page-content .license-page-content .license-page-inner-header h4 {
+    line-height: 16px;
+    height: 46px;
+    padding: 13px 15px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
+.commercioo-license-page-content .license-page-content .email-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #616161;
+    font-weight: 700;
+}
+.commercioo-license-page-content .license-page-content .email-container input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    background: #f7f7f7;
+    border: 1px solid #d9d9d9;
+    color: #424242;
+    padding: 20px;
+    border-radius: 0;
+}
+.commercioo-license-page-content .license-page-content .email-container.hide {
+    display: none;
+}
+.commercioo-license-page-content .license-page-content .email-container.filled {
+    text-align: center;
+}
+.commercioo-license-page-content .license-page-content .email-container.filled img {
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto 10px;
+    border-radius: 50px;
+    background: #eee;
+}
+.commercioo-license-page-content .license-page-content .email-container.filled h3 {
+    margin: 0 auto 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.commercioo-license-page-content .license-page-content .email-container.filled button {
+    background: #fff;
+    border: 1px solid #2196f3;
+    color: #2196f3;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-weight: 700;
+    outline: 0;
+}
+.commercioo-license-page-content .license-page-content .license-page-inner-footer {
+    padding: 20px 30px;
+    text-align: right;
+}
+.commercioo-license-page-content .license-page-content .license-page-button {
+    border: 0;
+    outline: 0;
+    background: #e3e3e3;
+    color: #999;
+    padding: 0 10px;
+    line-height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+.commercioo-license-page-content .license-page-content .license-page-button[disabled],
+.commercioo-license-page-content .license-page-content a.license-page-button.disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+.commercioo-license-page-content .license-page-content .license-page-button:hover {
+    background: #ddd;
+}
+.commercioo-license-page-content .license-page-content .license-page-button-primary {
+    background: #43a9e8;
+    color: #fff;
+}
+.commercioo-license-page-content .license-page-content .license-page-button-primary:hover {
+    background: #39a1e1;
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins {
+    margin: 0;
+    padding: 0;
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins li {
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins li:last-child {
+    margin-bottom: 0;
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins li .license-page-plugin-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins li .license-page-plugin-desc-license {
+    padding: 15px 20px;
+}
+
+.commercioo-license-page-content .license-page-content .license-page-plugins li .license-page-plugin-header input {
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins li .license-page-plugin-header label {
+    color: #2f3133;
+    font-weight: 700;
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins li .license-page-plugin-header label:before {
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins li .license-page-plugin-header input:checked + label:before {
+    /*background: #43a9e8;*/
+    /*border-color: #43a9e8;*/
+    /*font-family: FontAwesome;*/
+    /*content: "\f00c";*/
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins li .license-page-plugin-content {
+    padding: 20px;
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins li .license-page-plugin-content input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding: 0 20px;
+    line-height: 48px;
+    border: 1px solid #e3e3e3;
+    outline: 0;
+    border-radius: 0;
+}
+.commercioo-license-page-content .license-page-content .license-page-plugins li .license-page-plugin-content input[disabled] {
+    background: #f7f7f7;
+}
+.commercioo-license-page-content .license-page-content .license-page-install,
+.commercioo-license-page-content .license-page-content .license-page-activate {
+    background: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    padding: 16px;
+    margin: 0;
+}
+.commercioo-license-page-content .license-page-content .license-page-install li,
+.commercioo-license-page-content .license-page-content .license-page-activate li {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.commercioo-license-page-content .license-page-content .license-page-install li.installing {
+    font-weight: 700;
+}
+.commercioo-license-page-content .license-page-content .license-page-install-progress {
+    margin-top: 30px;
+}
+.commercioo-license-page-content .license-page-content .license-page-install-progress .percentage {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.commercioo-license-page-content .license-page-content .license-page-install-progress .bar {
+    width: 100%;
+    height: 5px;
+    background: #e3f1fa;
+}
+.commercioo-license-page-content .license-page-content .license-page-install-progress .bar div {
+    height: 100%;
+    background: #43a9e8;
+}
+.commercioo-license-page-content .license-page-content .license-page-activate li {
+    margin-bottom: 5px;
+}
+.commercioo-license-page-content .license-page-content .license-page-activate li .icon {
+    display: inline-block;
+}
+.commercioo-license-page-content .license-page-content .license-page-activate li .icon:before {
+    font-family: FontAwesome;
+    content: "\f10c";
+    display: inline-block;
+    width: 14px;
+    text-align: center;
+    line-height: 14px;
+    color: #2196f3;
+    opacity: .2;
+    font-size: 16px;
+}
+.commercioo-license-page-content .license-page-content .license-page-activate li.activated .icon:before {
+    opacity: 1;
+    content: "\f00c";
+    font-size: 14px;
+}
+.commercioo-license-page-content .license-page-content .license-page-activate li.activating .icon:before {
+    opacity: 1;
+    content: "\f1ce";
+    font-size: 14px;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

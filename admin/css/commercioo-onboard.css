@@ -1,0 +1,503 @@
+.commercioo-onboard {
+    border: 1px solid #ddd;
+}
+
+.commercioo-onboard * {
+    box-sizing: border-box;
+}
+
+.commercioo-onboard-header {
+    background: #fff;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    text-align: center;
+}
+
+.commercioo-onboard-header .logo {
+    display: block;
+    height: 28px;
+    position: absolute;
+    top: 16px;
+    left: 21px;
+}
+
+.commercioo-onboard-header .steps {
+    display: inline-block;
+    margin: 16px auto;
+}
+
+.commercioo-onboard-header .steps li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.commercioo-onboard-header .steps li .number,
+.commercioo-onboard-header .steps li .check {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    background: #d9d9d9;
+    color: #616161;
+    border-radius: 50%;
+    margin-right: 8px;
+    font-weight: 700;
+}
+
+.commercioo-onboard-header .steps li .check {
+    display: none;
+}
+
+.commercioo-onboard-header .steps li .check:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    display: inline-block;
+    line-height: 22px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    left: 0;
+}
+
+.commercioo-onboard-header .steps li.done .check {
+    display: inline-block;
+}
+
+.commercioo-onboard-header .steps li.done .number {
+    display: none;
+}
+
+.commercioo-onboard-header .steps li .text {
+    font-size: 16px;
+    display: inline-block;
+    line-height: 22px;
+}
+
+.commercioo-onboard-header .steps li:after {
+    font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 22px;
+}
+
+.commercioo-onboard-header .steps li:last-child:after {
+    display: none;
+}
+
+.commercioo-onboard-header .steps li.active .number,
+.commercioo-onboard-header .steps li.active .check,
+.commercioo-onboard-header .steps li.done .number,
+.commercioo-onboard-header .steps li.done .check {
+    background: #43a9e8;
+    color: #fff;
+}
+
+.commercioo-onboard-header .steps li.active .text,
+.commercioo-onboard-header .steps li.done .text {
+    color: #43a9e8;
+}
+
+.commercioo-onboard-content .onboard-content {
+    padding: 50px 0;
+    background: #fcfcfc;
+    display: none;
+}
+
+.commercioo-onboard-content .onboard-content.show {
+    display: block;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-content-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-content-container > h2 {
+    margin: 0 0 20px;
+    font-size: 30px;
+    color: #424242;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-content-container > p {
+    color: #616161;
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+
+.commercioo-onboard-content .onboard-content .error-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(250, 177, 160, .5);
+    color: #d63031;
+    padding: 5px 10px;
+    display: none;
+}
+
+.commercioo-onboard-content .onboard-content .error-container.show {
+    display: block;
+}
+
+.commercioo-onboard-content .onboard-content .error-container p {
+    margin: 0;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-inner {
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    position: relative;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-inner > div {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-inner > div:last-child {
+    border-bottom: 0;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-inner .block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .7);
+    z-index: 999;
+    cursor: wait;
+    display: none;
+    border: none;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-inner .block.show {
+    display: block;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-inner-header {
+    padding: 20px 30px;
+    display: flex;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-inner-header img {
+    display: block;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #eee;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-inner-header h4 {
+    line-height: 16px;
+    height: 46px;
+    padding: 13px 15px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-inner-content {
+    padding: 30px;
+}
+
+.commercioo-onboard-content .onboard-content .email-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #616161;
+    font-weight: 700;
+}
+
+.commercioo-onboard-content .onboard-content .email-container input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    background: #f7f7f7;
+    border: 1px solid #d9d9d9;
+    color: #424242;
+    padding: 20px;
+    border-radius: 0;
+}
+
+.commercioo-onboard-content .onboard-content .email-container.hide {
+    display: none;
+}
+
+.commercioo-onboard-content .onboard-content .email-container.filled {
+    text-align: center;
+}
+
+.commercioo-onboard-content .onboard-content .email-container.filled img {
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto 10px;
+    border-radius: 50px;
+    background: #eee;
+}
+
+.commercioo-onboard-content .onboard-content .email-container.filled h3 {
+    margin: 0 auto 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.commercioo-onboard-content .onboard-content .email-container.filled button {
+    background: #fff;
+    border: 1px solid #2196f3;
+    color: #2196f3;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-weight: 700;
+    outline: 0;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-inner-footer {
+    padding: 20px 30px;
+    text-align: right;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-button {
+    border: 0;
+    outline: 0;
+    background: #e3e3e3;
+    color: #999;
+    padding: 0 30px;
+    line-height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-button[disabled],
+.commercioo-onboard-content .onboard-content a.onboard-button.disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-button:hover {
+    background: #ddd;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-button-primary {
+    background: #43a9e8;
+    color: #fff;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-button-primary:hover {
+    background: #39a1e1;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-plugins {
+    margin: 0;
+    padding: 0;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-plugins li {
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-plugins li:last-child {
+    margin-bottom: 0;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-header input {
+    display: none;
+}
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-header input.comm_install label {
+    padding-left: 30px;
+}
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-header label {
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: top;
+    height: 20px;
+    position: relative;
+    color: #2f3133;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-header label {
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: top;
+    height: 20px;
+    position: relative;
+    color: #2f3133;
+    font-weight: 700;
+    font-size: 16px;
+}
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-header label.comm_install {
+    padding-left: 30px;
+}
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-header label.comm_install:before {
+    background: #fff;
+    width: 18px;
+    height: 18px;
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: #fff;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    text-align: center;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-header input.comm_install:checked + label:before {
+    background: #43a9e8;
+    border-color: #43a9e8;
+    font-family: FontAwesome;
+    content: "\f00c";
+}
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-header input.comm_not_install:checked + label:before {
+    background: #f10a00;
+    border-color: #f10a00;
+    font-family: FontAwesome;
+    content: "\f00d";
+}
+
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-header input:disabled:checked + label:before {
+    background: #9f9999;
+    border-color: #7a7a7a;
+    font-family: FontAwesome;
+    content: "\f00c";
+}
+
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-content {
+    padding: 20px;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-plugins li .onboard-plugin-content input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding: 0 20px;
+    line-height: 48px;
+    background: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    outline: 0;
+    border-radius: 0;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-install,
+.commercioo-onboard-content .onboard-content .onboard-activate {
+    background: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    padding: 16px;
+    margin: 0;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-install li,
+.commercioo-onboard-content .onboard-content .onboard-activate li {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-install li.installing {
+    font-weight: 700;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-install-progress {
+    margin-top: 30px;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-install-progress .percentage {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-install-progress .bar {
+    width: 100%;
+    height: 5px;
+    background: #e3f1fa;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-install-progress .bar div {
+    height: 100%;
+    background: #43a9e8;
+    width: 0%;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-activate li {
+    margin-bottom: 5px;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-activate li .icon {
+    display: inline-block;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-activate li .icon:before {
+    font-family: FontAwesome;
+    content: "\f10c";
+    display: inline-block;
+    width: 14px;
+    text-align: center;
+    line-height: 14px;
+    color: #2196f3;
+    opacity: .2;
+    font-size: 16px;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-activate li.activated .icon:before {
+    opacity: 1;
+    content: "\f00c";
+    font-size: 14px;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-activate li.failed .icon:before {
+    opacity: 1;
+    content: "\f00d";
+    font-size: 14px;
+    color: #ff000e;
+}
+
+.commercioo-onboard-content .onboard-content .onboard-activate li.activating .icon:before {
+    opacity: 1;
+    content: "\f1ce";
+    font-size: 14px;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

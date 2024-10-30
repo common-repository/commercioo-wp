@@ -1,0 +1,128 @@
+.section-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+    color: #616161;
+    text-decoration: none solid rgb(97, 97, 97);
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.title-head {
+    font-size: 28px;
+    color: #616161;
+    text-decoration: none solid rgb(97, 97, 97);
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.c-form-control {
+    height: 38px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #9e9e9e;
+    text-decoration: none solid rgb(158, 158, 158);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.btn-login {
+    width: 100%;
+    border: 1px solid #1976d2;
+    border-radius: 3px;
+    background-color: #1976d2;
+    font-size: 16px;
+    color: #f2f2f2;
+    text-decoration: none solid rgb(242, 242, 242);
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.login-facebook-google-title {
+    font-size: 16px;
+    color: #616161;
+    text-decoration: none solid rgb(97, 97, 97);
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-login-facebook-google {
+    width: 40%;
+    font-weight: bold;
+}
+
+.btn-facebook {
+    background-color: #2a5798;
+    font-size: 16px;
+    color: #f2f2f2;
+    text-decoration: none solid rgb(242, 242, 242);
+    letter-spacing: 0.5px;
+    width: 100%;
+    border: 1px solid #2a5798;
+}
+
+.btn-facebook:hover {
+    background-color: #1b3f73;
+    color: #f2f2f2;
+    border: 1px solid #1b3f73
+}
+
+.btn-google {
+    background-color: #de4a39;
+    font-size: 16px;
+    color: #f2f2f2;
+    text-decoration: none solid rgb(242, 242, 242);
+    letter-spacing: 0.5px;
+    width: 100%;
+    border: 1px solid #de4a39;
+}
+
+.btn-google:hover {
+    background-color: #cc493a;
+    color: #f2f2f2;
+    border: 1px solid #cc493a
+}
+
+.set-mr-10 {
+    margin-right: 10px;
+}
+
+.line-login-register {
+    background: #eaeaea;
+    width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input.form-control.c-form-control:focus, textarea.form-control.c-form-control:focus {
+    box-shadow: none;
+    border: 1px solid #eaeaea;
+}
+
+.btn-login:hover {
+    color: #ffffff;
+    background-color: #1e88e5;
+    border: solid 1px #1e88e5;
+}
+
+button.btn.btn-login:focus {
+    box-shadow: none;
+    border: 1px solid #1976d2;
+}
+
+button.btn-facebook:focus {
+    box-shadow: none;
+    border: 1px solid #2a5798;
+}
+
+button.btn-google:focus {
+    box-shadow: none;
+    border: 1px solid #de4a39;
+}

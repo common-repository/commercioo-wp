@@ -1,0 +1,1 @@
+<p>Remove this Shortcode and use Checkout widget on elementor panel</p>

@@ -1,0 +1,69 @@
+/** 
+ * Buttons colors
+ */
+#customize-control-comm_order_forms_settings-button_color .customize-inside-control-row label {
+	display: inline-block;
+	width: 210px;
+	height: 40px;
+	border: 1px solid #ffffff;
+	position: relative;
+	color: transparent;
+}
+#customize-control-comm_order_forms_settings-button_color .customize-inside-control-row label:after {
+	content: '';
+	display: inline-block;
+	width: 50%;
+	height: 40px;
+	position: absolute;
+	right: 0;
+}
+#customize-control-comm_order_forms_settings-button_color .customize-inside-control-row label:before {
+	content: '';
+	display: inline-block;
+	width: 50%;
+	height: 40px;
+	margin-left: 0;
+	position: absolute;
+	left: 0;
+}
+
+/** 
+ * Buttons style
+ */
+#customize-control-comm_order_forms_settings-button_style .customize-inside-control-row label {
+	width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #616161;
+    background-color: #757575;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#customize-control-comm_order_forms_settings-button_style .customize-inside-control-row input[value=c-button-rounded]+label {
+	border-radius: 3px;
+}
+#customize-control-comm_order_forms_settings-button_style .customize-inside-control-row input[value=c-button-big-rounded]+label {
+	border-radius: 8px;
+}
+#customize-control-comm_order_forms_settings-button_style .customize-inside-control-row input[value=c-button-pill]+label {
+	border-radius: 25px;
+}
+#customize-control-comm_order_forms_settings-button_style .customize-inside-control-row input[value=c-button-flat]+label {
+	border-radius: 0px;
+}
+
+.customizer-message-variable {
+	list-style: circle;
+	padding: 10px 0 0 20px;
+}
+#accordion-section-title_tagline {
+    margin-bottom: 15px;
+}
+#accordion-panel-nav_menus {
+    margin-top: 15px;
+}

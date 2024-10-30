@@ -1,0 +1,35 @@
+span.badge.c-ar-badge-rounded {
+    border-radius: 15px;
+    padding: 5px 20px;
+    min-width: 100px;
+    font-weight: 700;
+    font-size: 11px;
+}
+.c-ar-badge-rounded.pending {
+    background-color: #fff3cd;
+    color:#856404;
+}
+.c-ar-badge-rounded.processing {
+    background-color: #cce5ff;
+    color: #1f5eae;
+}
+.c-ar-badge-rounded.completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+.c-ar-badge-rounded.refunded {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.c-ar-badge-rounded.abandoned {
+    background-color: #ede7f6;
+    color: #673ab7;
+}
+.c-ar-badge-rounded.netral {
+    background-color: #e2e3e5;
+    color: #383d41;
+}
+.c-ar-badge-rounded.inactive-status {
+    background-color: #e2e3e5;
+    color: #3b3f43;
+}

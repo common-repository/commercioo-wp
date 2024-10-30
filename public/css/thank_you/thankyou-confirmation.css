@@ -1,0 +1,79 @@
+.thankyou-confirmation {
+    max-width: 450px;
+}
+.thankyou-confirmation
+.confirmation-description {
+    text-align: center;
+}
+.thankyou-confirmation
+.confirmation-form {
+    max-width: 400px;
+    margin: 20px auto 0 auto;
+}
+.thankyou-confirmation
+.confirmation-field-wrapper {
+    position: relative;
+    margin-top: 20px;
+}
+.confirmation-action-wrapper {
+    margin-top: 30px;
+}
+.icon-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    color: #9e9e9e;
+}
+.thankyou-confirmation
+.confirmation-field-wrapper input[type=file] {
+    position: absolute;
+    padding: 10px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+.thankyou-confirmation
+.confirmation-action-wrapper button[type=submit] {
+    border: 1px solid #df4e1f;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    background-color: #f15a29;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.thankyou-confirmation
+.confirmation-action-wrapper a.btn-place-confirmation-payment {
+    border: 1px solid #df4e1f;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    background-color: #f15a29;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.thankyou-confirmation
+.confirmation-action-wrapper a.btn-place-confirmation-payment:hover {
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .thankyou-confirmation 
+    .confirmation-action-wrapper button[type=submit] {
+        font-size: 14px;
+    }
+}

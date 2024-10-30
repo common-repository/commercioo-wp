@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 313.9 360.2" style="enable-background:new 0 0 313.9 360.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F15B2A;}
+	.st1{opacity:0.2;}
+	.st2{fill:#FFFFFF;}
+	.st3{clip-path:url(#SVGID_2_);}
+	.st4{fill:url(#SVGID_3_);}
+</style>
+<g id="Layer_1-2">
+	
+		<image style="display:none;overflow:visible;opacity:0.1;enable-background:new    ;" width="1308" height="1501" xlink:href="331F0027C325F3C9.png"  transform="matrix(0.24 0 0 0.24 0 0)">
+	</image>
+	<path class="st0" d="M210.9,234H99.7c-15.8,0-29-12.1-30.3-27.9L59.2,84.5C57.8,67.7,70.2,53,87,51.6c0.8-0.1,1.7-0.1,2.5-0.1
+		h131.6c16.8,0,30.4,13.6,30.4,30.4c0,0.8,0,1.7-0.1,2.5l-10.2,121.6C239.9,221.9,226.7,234,210.9,234z"/>
+	<g class="st1">
+		<path class="st2" d="M155.6,101.5c22.8,0,41.2,18.5,41.2,41.2c0,22.8-18.5,41.2-41.2,41.2c-22.8,0-41.2-18.5-41.2-41.2
+			c0,0,0,0,0,0C114.4,120,132.9,101.6,155.6,101.5 M155.6,77.5c-36,0-65.2,29.2-65.2,65.2s29.2,65.2,65.2,65.2s65.2-29.2,65.2-65.2
+			c0,0,0,0,0,0C220.9,106.7,191.7,77.5,155.6,77.5C155.6,77.5,155.6,77.5,155.6,77.5L155.6,77.5z"/>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M155.6,101.5c22.8,0,41.2,18.5,41.2,41.2c0,22.8-18.5,41.2-41.2,41.2c-22.8,0-41.2-18.5-41.2-41.2
+				c0,0,0,0,0,0C114.4,120,132.9,101.6,155.6,101.5 M155.6,77.5c-36,0-65.2,29.2-65.2,65.2s29.2,65.2,65.2,65.2s65.2-29.2,65.2-65.2
+				c0,0,0,0,0,0C220.9,106.7,191.7,77.5,155.6,77.5C155.6,77.5,155.6,77.5,155.6,77.5L155.6,77.5z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st3">
+			
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="90.4" y1="219.24" x2="220.88" y2="219.24" gradientTransform="matrix(1 0 0 -1 0 362)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.2" style="stop-color:#FFFFFF;stop-opacity:0.99"/>
+				<stop  offset="0.27" style="stop-color:#FFFFFF;stop-opacity:0.97"/>
+				<stop  offset="0.32" style="stop-color:#FFFFFF;stop-opacity:0.92"/>
+				<stop  offset="0.36" style="stop-color:#FFFFFF;stop-opacity:0.85"/>
+				<stop  offset="0.4" style="stop-color:#FFFFFF;stop-opacity:0.77"/>
+				<stop  offset="0.43" style="stop-color:#FFFFFF;stop-opacity:0.66"/>
+				<stop  offset="0.46" style="stop-color:#FFFFFF;stop-opacity:0.53"/>
+				<stop  offset="0.48" style="stop-color:#FFFFFF;stop-opacity:0.39"/>
+				<stop  offset="0.51" style="stop-color:#FFFFFF;stop-opacity:0.22"/>
+				<stop  offset="0.53" style="stop-color:#FFFFFF;stop-opacity:4.000000e-02"/>
+				<stop  offset="0.53" style="stop-color:#FFFFFF;stop-opacity:0"/>
+			</linearGradient>
+			<circle class="st4" cx="155.6" cy="142.8" r="65.2">
+			
+				<animateTransform  accumulate="none" additive="replace" attributeName="transform" attributeType="XML" calcMode="linear" dur="2s" fill="remove" from="0 155.64 142.76" repeatCount="indefinite" restart="always" to="360 155.64 142.76" type="rotate">
+				</animateTransform>
+			</circle>
+		</g>
+	</g>
+	<circle class="st0" cx="124.9" cy="273.5" r="21.3">
+	
+		<animate  accumulate="none" additive="replace" attributeName="cy" attributeType="XML" calcMode="linear" dur="1s" fill="remove" keyTimes="0; 0.33; 0.66; 1" repeatCount="indefinite" restart="always" values="273.54; 283.54; 263.54; 273.54">
+		</animate>
+	</circle>
+	<circle class="st0" cx="185.7" cy="273.5" r="21.3">
+	
+		<animate  accumulate="none" additive="replace" attributeName="cy" attributeType="XML" calcMode="linear" dur="1s" fill="remove" keyTimes="0; 0.33; 0.66; 1" repeatCount="indefinite" restart="always" values="273.54; 263.54; 283.54; 273.54">
+		</animate>
+	</circle>
+</g>
+</svg>

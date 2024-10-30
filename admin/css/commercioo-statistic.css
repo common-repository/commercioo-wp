@@ -1,0 +1,25 @@
+.c-statistics-description {
+    position: absolute;
+    font-size: 13px;
+    left: 50%;
+    top: -15px;
+    transform: translateX(-50%);
+}
+
+.drp-calendar.left th:first-child {
+    display: none;
+}
+
+a.c-btn-statistics.c-add-statistics {
+    background-color: #2196f3;
+    color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+    padding: 3px 10px 3px;
+    font-weight: normal;
+    margin-left: 10px;
+    border: none;
+}

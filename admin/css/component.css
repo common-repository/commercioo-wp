@@ -1,0 +1,35 @@
+span.badge.c-ar-badge-rounded {
+    border-radius: 15px;
+    padding: 5px 20px;
+    min-width: 100px;
+    font-weight: 700;
+    font-size: 11px;
+}
+.pending {
+    background-color: #fff3cd;
+    color:#856404;
+}
+.processing {
+    background-color: #cce5ff;
+    color: #1f5eae;
+}
+.complete {
+    background-color: #d4edda;
+    color: #155724;
+}
+.refund {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.abandoned {
+    background-color: #ede7f6;
+    color: #673ab7;
+}
+.netral {
+    background-color: #e2e3e5;
+    color: #383d41;
+}
+.inactive-status {
+    background-color: #e2e3e5;
+    color: #3b3f43;
+}

@@ -1,0 +1,199 @@
+.c-title-header {
+    font-size: 14px;
+    color: #424242;
+    text-decoration: none solid rgb(66, 66, 66);
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.c-title-text {
+    position: absolute;
+    padding-top: 15px;
+}
+
+.c-btn-add-tag {
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #424242;
+    text-decoration: none solid rgb(66, 66, 66);
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.c-btn-add-tag:hover {
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.c-setting-form-control {
+    font-size: 14px;
+    color: #424242;
+    text-decoration: none solid rgb(66, 66, 66);
+    letter-spacing: 0.5px;
+}
+
+.c-general-tag {
+    font-size: 14px;
+    color: #424242;
+    text-decoration: none solid rgb(66, 66, 66);
+    letter-spacing: 0.5px;
+}
+
+.c-table-list-tag {
+    border: solid 1px #dee2e6;
+}
+
+.c-table-list-tag-head {
+    background-color: #f2f2f2;
+    background-size: cover;
+    color: #424242;
+    text-decoration: none solid rgb(66, 66, 66);
+    letter-spacing: 0.5px;
+}
+
+.c-general-tag {
+    font-size: 14px;
+    color: #424242;
+    text-decoration: none solid rgb(66, 66, 66);
+    letter-spacing: 0.5px;
+}
+
+.c-filter-list-tag-wrap {
+    border: solid 1px #ccc;
+    border-radius: 3px;
+}
+
+.c-filter-list-tag {
+    padding: 5.5px;
+    padding-left: 15px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+
+.c-filter-list-tag.active {
+    font-weight: bold;
+}
+
+li.list-inline-item.c-filter-list-tag:not(:last-child) {
+    margin-right: 0;
+}
+
+li.c-filter-list-tag:not(:last-child):after {
+    border-right: #dadada 1px solid;
+    content: '';
+    padding-left: 12px;
+}
+
+.c-btn-edit, .c-btn-delete {
+    font-size: 12px;
+    color: #fff;
+}
+
+.c-btn-edit:hover {
+    color: #fff;
+}
+
+.c-btn-wrap-tag {
+    font-size: 14px;
+    color: #757575;
+    border-radius: 3px;
+    border: solid 1px #dadada;
+    stroke-width: 1;
+}
+
+.c-btn-wrap-tag:hover {
+    color: #2196f3;
+    border: solid 1px #2196f3;
+}
+
+.popover-body {
+    background: #424242;
+    color: #ffff;
+}
+
+.bs-popover-top > .arrow::after, .bs-popover-auto[x-placement^="top"] > .arrow::after {
+    border-top-color: #424242;
+}
+
+/* Filter btn */
+.c-btn-filter-list {
+    background: #ffffff;
+    color: #424242;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.c-btn-filter-list.active {
+    font-weight: bold;
+}
+
+.c-set-padding-left-1 {
+    padding-left: 1px;
+}
+
+span.c-btn-filter-list:not(:last-child):after {
+    border-right: #dadada 1px solid;
+    content: '';
+    padding-left: 12px;
+}
+
+.c-btn-filter-list-wrap {
+    border: solid 1px #dadada;
+    border-radius: 5px;
+}
+
+/* end Filter btn */
+.table-option {
+    display: inline-block;
+    border: solid 1px #ddd;
+    padding: 0 2px;
+    border-radius: 3px;
+}
+
+.table-option .dropdown-menu {
+    padding: .3rem 0;
+}
+.table-option ul li {
+    margin: 0;
+}
+.table-option ul li a:hover:not(.disabled) {
+    background: #f2f5f7;
+}
+
+.table-option ul li a {
+    display: block !important;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #586469;
+}
+
+.table-option ul li a.disabled {
+    pointer-events: none;
+    color: #a7a7a7;
+}
+
+.table-option ul li a.delete {
+    color: #f44336;
+}
+
+.table-option > span {
+    padding: 0;
+    line-height: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1px;
+    border-left: solid 1px #ddd;
+    border-radius: 0;
+    padding-left: 5px;
+    padding-right: 3px;
+}
+.c-hr-line {
+    margin: 5px 0;
+}

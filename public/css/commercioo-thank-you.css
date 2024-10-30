@@ -1,0 +1,6 @@
+.comm-billing-address-line{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+.comm-clear{clear: both;display: block;width: 100%;float: none !important;}
